@@ -1,0 +1,41 @@
+//1) Program to search for a particular character in a string
+
+let str = "javascript";
+console.log(str);
+console.log("The character p from the string javascript found at index "+ str.indexOf("p"));
+
+
+//2) Program to convert minutes to seconds
+
+let minutes = 30;
+seconds = minutes * 60;
+console.log("30 Minutes into seconds is " + seconds);
+
+
+//3) Program to search element in a array of strings
+
+const birds=["parrot","hen","pigeon","peacock","eagle"];
+console.log(birds);
+console.log("The element peacock found at index "+birds.indexOf("peacock"));
+
+
+//4) Program to display only elements containing 'a' in the term of array
+
+let fruits=["apple","cherry","kiwi","Banana","mango","lime"];
+console.log(fruits);
+for(var i=0;i<fruits.length;i++)
+{
+  if(fruits[i].indexOf('a')!=-1)
+    {
+      console.log("The elements containing a are ")
+     console.log(fruits[i]);
+    }
+}
+
+
+//5) Print an array in reverse order
+
+let animals=["dog","cat","lion","tiger","elephant"];
+console.log(animals);
+animals=["dog","cat","lion","tiger","elephant"].reverse();
+console.log("The array in reverse order is "+ animals);
